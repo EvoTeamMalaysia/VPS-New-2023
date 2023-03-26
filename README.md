@@ -1,6 +1,6 @@
 # Script Websocket
 
- <h2 align="center">AutoScript VPN <img src="https://img.shields.io/badge/Version-samsfx_1.0-blue.svg"></h2>
+ <h2 align="center">AutoScript VPN <img src="https://img.shields.io/badge/Version-EvoTeamMalaysia-blue.svg"></h2>
 
 
 <h2 align="center"> Supported Linux Distribution</h2>
