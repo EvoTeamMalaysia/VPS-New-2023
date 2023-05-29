@@ -62,7 +62,7 @@ systemctl restart wg-quick@wg0
   - OHP SSH                 : 8686
   - OHP OpenVPN             : 8787
   - Websocket SSH(HTTP)     : 80
-  - Websocket SSL(HTTPS)    : 443, 222
+  - Websocket SSL(HTTPS)    : 443, 222 (Having Bug ,Fixing)
   - Websocket OpenVPN       : 2084
   - Squid Proxy             : 3128, 8080, 8000
   - Badvpn                  : 7100, 7200, 7300
@@ -85,7 +85,7 @@ systemctl restart wg-quick@wg0
    - Fail2Ban                 : [ON]
    - DDOS Dflate              : [ON]
    - IPtables                 : [ON]
-   - Auto-Reboot              : [ON]- 5.00AM
+   - Auto-Reboot              : [ON]- 6.00AM
    - IPv6                     : [OFF]
    - Auto-Remove-Expired      : [ON]
    - Auto Delete Expired Account
