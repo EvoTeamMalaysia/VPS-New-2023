@@ -12,7 +12,7 @@ VALIDITY () {
     if [[ $today < $Exp1 ]]; then
     echo -e "\e[32mYOUR SCRIPT ACTIVE..\e[0m"
     else
-    echo -e "\e[31mYOUR SCRIPT HAS EXPIRED!\e[0m";
+    echo -e "\e[31mYOUR SCRIPT HAS EXPIRED!!\e[0m";
     echo -e "\e[31mPlease renew your ipvps first\e[0m"
     exit 0
 fi
@@ -24,6 +24,7 @@ VALIDITY
 else
 echo -e "\e[31mPermission Denied!\e[0m";
 echo -e "\e[31mPlease buy script first\e[0m"
+echo -e "\e[31mContact me by leave your email!!\e[0m"
 exit 0
 fi
 
