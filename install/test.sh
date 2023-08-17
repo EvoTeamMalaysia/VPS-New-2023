@@ -33,7 +33,7 @@ export emailcf=$(cat /usr/local/etc/xray/email)
 export domain=$(cat /root/domain)
 
 apt install iptables iptables-persistent -y
-apt install curl socat xz-utils wget apt-transport-https gnupg gnupg2 gnupg1 dnsutils lsb-release -y 
+apt install curl socat xz-utils wget apt-transport-https gnupg gnupg2 gnupg1 dnsutils lsb-release screen htop bmon nload speedtest-cli -y 
 apt install socat cron bash-completion ntpdate -y
 ntpdate pool.ntp.org
 apt -y install chrony
